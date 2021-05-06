@@ -6,7 +6,7 @@ A neuron consists of a set of weights(wi) and an activation function and receive
 
 Let there be n inputs to the neuron, the output can be represented as :
 
-![](RackMultipart20210506-4-e79xta_html_be398ba9ea809a84.png)
+![tanh](tanh.PNG)
 
 where , b = bias of the neuron
 
@@ -14,13 +14,13 @@ where , b = bias of the neuron
 
 We train our neural network using stochastic gradient descent algorithms. Stochastic gradient descent is an optimization algorithm that estimates the error gradient for the current state of the model then updates the weights of the model using backpropagation. The amount these weights are updated during the training is called as the learning rate or the step. In the below formula **α** is the learning rate.
 
-![](RackMultipart20210506-4-e79xta_html_9f784e76f4f52b6f.png)
+![Learning rate](Learning_rate.PNG)
 
 Now, how do we decide the value of learning rate ? The smaller learning rate will result in very small updation in the weights and our model will take a lot of time to train and learn the optimal weights, and, a higher learning rate results in rapid changes and often results in a sub-optimal final set of weights .
 
 A desirable learning rate is low enough that the network converges to something useful, but high enough that it can be trained in reasonable time. Generally the learning rate is between 0 and 1.
 
-![](RackMultipart20210506-4-e79xta_html_376310b5d1bf28b1.png)
+![2](Learning_rate2.PNG)
 
 **How are weights initialized?**
 
