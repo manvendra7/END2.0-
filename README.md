@@ -1,4 +1,4 @@
-### **What is a neural network neuron?**
+## **What is a neural network neuron?**
 
 Neurons are the nodes which act as a small memory storage or signal. These neurons have input and output connections (weights). The input can either come from raw dataset or from the neurons positioned at the previous layer of neural net.
 
@@ -10,7 +10,7 @@ Let there be n inputs to the neuron, the output can be represented as :
 
 where , b = bias of the neuron
 
-### **What is the use of the learning rate?**
+## **What is the use of the learning rate?**
 
 We train our neural network using stochastic gradient descent algorithms. Stochastic gradient descent is an optimization algorithm that estimates the error gradient for the current state of the model then updates the weights of the model using backpropagation. The amount these weights are updated during the training is called as the learning rate or the step. In the below formula **α** is the learning rate.
 
@@ -36,7 +36,7 @@ The most used weight initialization techniques are described as follows
 | **Xavier initialization (Glorot initialization)** | Xavier proposed a more straightforward method, where the weights such as the variance of the activations are the same across every layer. This will prevent the gradient from exploding or vanishing. | Decreases the probability of the gradient vanishing/exploding problem | - This method is not useful when the activation function is non-differentiable - Dying neuron problem during the training |
 | **He initialization (Kaiming initialization)** | This initialization preserves the non-linearity of activation functions such as ReLU activations. Using the He method, we can reduce or magnify the magnitudes of inputs exponentially | Solves dying neuron problems | - This method is not useful for layers with differentiable activation function such as ReLU or LeakyReLU |
 
-### **What is &quot;loss&quot; in a neural network?**
+## **What is &quot;loss&quot; in a neural network?**
 
 Loss is the error in the predicted output by our model and the ground truth. And the method to calculate this loss is called loss function. Loss is the very important component in the neural network as loss is used to calculate the gradient and the gradients are used to update the weight of the neural network.
 
@@ -50,7 +50,7 @@ Few of the essential loss functions, which could be used for most of the objecti
 
 **Sparse Categorical Crossentropy (SCC)** – This loss function is almost similar to CCE except for one change. When we are using SCCE loss function, you do not need to one hot encode the target vector. If the target image is of a cat, you simply pass 0, otherwise 1. Basically, whichever the class is you just pass the index of that class.
 
-### **What is the &quot;chain rule&quot; in gradient flow?**
+## **What is the &quot;chain rule&quot; in gradient flow?**
 
 If a variable _z_ depends on the variable _y_, which itself depends on the variable _x_, so that _y_ and _z_ are dependent variables, then _z_, via the intermediate variable of _y_, depends on _x_ as well. This is called chain rule and mathematically it can be expressed as -
 
