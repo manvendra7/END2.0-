@@ -55,13 +55,11 @@ Few of the essential loss functions, which could be used for most of the objecti
 If a variable _z_ depends on the variable _y_, which itself depends on the variable _x_, so that _y_ and _z_ are dependent variables, then _z_, via the intermediate variable of _y_, depends on _x_ as well. This is called chain rule and mathematically it can be expressed as -
 
 ![](RackMultipart20210506-4-e79xta_html_c596fc1e40205a52.png)
-
 Let&#39;s Look at an example
-
-![](RackMultipart20210506-4-e79xta_html_94f8632709975e94.png)
+![chain-rule](Chain_rule.PNG)
 
 The figure shows a node with inputs (x,y) and output z=h(x,y), where h represents the function performed at the node. Let&#39;s assume that the gradient ∂L/∂z is known. Using the Chain Rule of Differentiation, the gradients ∂L/∂x and ∂L/∂y can be computed as:
 
-![chain rule](Chain_rule.PNG)
+![chain rule](chain_rule.PNG)
 
 This rule can be used to compute the effect of the node on the gradients flowing back from right to left.
