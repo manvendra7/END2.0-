@@ -22,7 +22,7 @@ A desirable learning rate is low enough that the network converges to something 
 
 ![2](Learning_rate-2.PNG)
 
-### **How are weights initialized?**
+## **How are weights initialized?**
 
 The aim of weight initialization is to prevent layer activation outputs from exploding or vanishing during the course of a forward pass through a deep neural network. If either occurs, loss gradients will either be too large or too small to flow backwards beneficially, and the network will take longer to converge, if it is even able to do so at all.
 
