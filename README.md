@@ -60,6 +60,6 @@ Let&#39;s Look at an example
 
 The figure shows a node with inputs (x,y) and output z=h(x,y), where h represents the function performed at the node. Let&#39;s assume that the gradient ∂L/∂z is known. Using the Chain Rule of Differentiation, the gradients ∂L/∂x and ∂L/∂y can be computed as:
 
-![chain rule](chain_rule.PNG)
+![chain rule](chain_rule-1.PNG)
 
 This rule can be used to compute the effect of the node on the gradients flowing back from right to left.
